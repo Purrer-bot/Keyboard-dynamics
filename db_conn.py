@@ -10,7 +10,7 @@ def get_random_message():
     phrase_list = []
     connection = pymysql.connect(host='localhost',
                             user='root',
-                            password='root',
+                            password='',
                             db='keyboard',
                             charset='utf8mb4',
                             cursorclass=pymysql.cursors.DictCursor)
